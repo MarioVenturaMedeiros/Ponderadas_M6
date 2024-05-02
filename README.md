@@ -18,7 +18,7 @@ Esse projeto serve para escrever "MVM" utilizando turtlesim e ROS 2. Ele funcion
 - Python 3.8+
 - turtlesim
 
-Caso nao tenha essas pré-requisitos recomendo seguir [esse tutorial](https://rmnicola.github.io/m6-ec-encontros/E01/ros)
+Caso nao tenha os pré-requisitos listados, recomendo seguir [esse tutorial](https://rmnicola.github.io/m6-ec-encontros/E01/ros) para instalar todas os requisitos.
 
 ## Instalação
 
