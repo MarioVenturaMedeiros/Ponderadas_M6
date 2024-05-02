@@ -44,7 +44,7 @@ Esses comandos preparam o ambiente para execução do código. cd workspace_pond
 3.Execute o código:
 
 ```bash 
-   ros2 ros2 run ponderada-s1 ponderada_s1
+    ros2 run ponderada-s1 ponderada_s1
 ```
 
 Este comando inicia a execução do projeto. ros2 run é usado para rodar pacotes no ROS 2, especificamente aqui o pacote ponderada-s1 com o executável ponderada_s1.
