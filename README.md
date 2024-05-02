@@ -4,7 +4,7 @@ Este repositório foi criado para expor todos os trabalhos feitos no módulo 6 d
 
 # Ponderada 1 - Desenhando com o turtlesim
 
-Esse projeto serve para escrever "MVM" utilizando turtlesim e ROS 2. Ele funciona criando 3 tartarugas, cada uma escrevendo uma letra. Para uma exemplificão maior, [clique aqui](https://youtu.be/mZQxjUkAhuc/)
+Esse projeto serve para escrever "MVM" utilizando turtlesim e ROS 2. Ele funciona criando 3 tartarugas, cada uma escrevendo uma letra. Caso queira ver uma demonstração, [clique aqui](https://youtu.be/mZQxjUkAhuc/)
 
 ## Funcionalidades
 
