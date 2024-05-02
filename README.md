@@ -1,3 +1,5 @@
+# Introdução
+
 Este repositório foi criado para expor todos os trabalhos feitos no módulo 6 da Inteli.
 
 # Ponderada 1 - Desenhando com o turtlesim
@@ -25,7 +27,7 @@ Aqui é relatado como rodar o projeto:
 1. Clone o repositório no terminal:
 
 ```bash
-      git clone https://github.com/LuanRM1/TurtleSimPonderada.git
+      git clone https://github.com/MarioVenturaMedeiros/Ponderadas_M6
 ```
 Este comando clona o repositório no seu computador, permitindo que você tenha acesso local a todos os arquivos do projeto.
 
