@@ -34,7 +34,7 @@ Este comando clona o repositório no seu computador, permitindo que você tenha 
 2.Compile o código:
 
 ```bash
-   cd workspace_ponderada
+   cd workspace_ponderadas
    colcon build
    source install/setup.bash
 ```
@@ -97,7 +97,7 @@ Esse comando tem o intuito de restringir a comunicação a somente os robôs con
 4. Na mesma janela de terminal, digite os seguintes comandos para iniciar o build do workspace:
 
 ```bash
-    cd 2024-1B-T08-EC06-G05/workspace
+    cd workspace_ponderadas
     colcon build
 ```
 
