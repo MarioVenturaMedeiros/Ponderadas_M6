@@ -71,14 +71,14 @@ Aqui é relatado como rodar o projeto:
 
 ### Sistema operacional da Raspberry
 
-1. No sistema operacional da Raspberry contida no Turtlebot 3 a ser controlado, abra uma janela de terminal e digite os seguintes comandos para limitar a comunicação via ROS a um domínio com ID 7 dentro da rede:
+1. No sistema operacional da Raspberry contida no Turtlebot 3 a ser controlado, abra uma janela de terminal e digite os seguintes comandos para limitar a comunicação via ROS a um domínio com ID 77 dentro da rede:
 
 ```bash
     echo 'export ROS_DOMAIN_ID=77' >> ~/.bashrc
     source ~/.bashrc
 ```
 
-Esse comando tem o intuito de restringir a comunicação a somente os robôs configurados com esse ROS_DOMAIN_ID=5. Assim, reduz as chances de o mesmo código interagir com diversos robôs diferentes
+Esse comando tem o intuito de restringir a comunicação a somente os robôs configurados com esse ROS_DOMAIN_ID=77. Assim, reduz as chances de o mesmo código interagir com diversos robôs diferentes
 
 2. Na mesma janela de terminal, digite o seguinte comando para iniciar a comunicação entre a Raspberry e o microcontrolador do robô, bem como torná-lo apto a receber comandos de movimentação remotamente:
 
