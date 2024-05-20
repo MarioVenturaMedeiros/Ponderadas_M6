@@ -63,7 +63,7 @@ Esse projeto serve para controlar um robô turtlebot3 burger. Ele funciona por m
 
 - Git instalado no computador usado para operar o robô remotamente
 
-Caso nao tenha os pré-requisitos listados, recomendo seguir [esse tutorial](https://rmnicola.github.io/m6-ec-encontros/E01/ros) para instalar o ROS2 e [esse tutorial](hhttps://rmnicola.github.io/m6-ec-encontros/setupturtle) para configurar a Raspberry Pi e o pacote do ROS do turtlebot3, além de instalar o pacote do turtlebot3 na Raspberry Pi .
+Caso nao tenha os pré-requisitos listados, recomendo seguir [esse tutorial](https://rmnicola.github.io/m6-ec-encontros/E01/ros) para instalar o ROS2 e [esse tutorial](https://rmnicola.github.io/m6-ec-encontros/setupturtle) para configurar a Raspberry Pi e o pacote do ROS do turtlebot3, além de instalar o pacote do turtlebot3 na Raspberry Pi .
 
 ## Instalação
 
