@@ -103,7 +103,9 @@ Esse comando tem o intuito de restringir a comunicação a somente os robôs con
 
 5. Após isso, digite o seguinte comando para habilitar o uso do pacote criado:
 
-`source install/local_setup.bash`
+```bash
+      source install/local_setup.bash
+```
 
 6. Digite os seguintes comandos para limitar a comunicação via ROS a um domínio com ID 77 dentro da rede:
 
