@@ -118,3 +118,51 @@ Esse comando tem o intuito de restringir a comunicação a somente os robôs con
 ```bash
     ros2 run turtlebot_teleoperado start_moving
 ```
+
+# Ponderada - Reactive Navigation
+
+Esse projeto serve para completar um labirinto criando em pygame utilizando ROS2. Para ver o vídeo de funcionamento desse projeto, entre [nesse link](https://youtu.be/eBbb-R8Z8co)
+
+### Pré-requisitos
+
+- ROS2 instalado no sistema operacional (Linux Ubuntu) no computador usado.
+
+- [Pacote ROS do Turtlebot 3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/master) instalado no sistema operacional (Linux Ubuntu).
+
+- Pacote criado com pygame [instalação aqui](https://github.com/rmnicola/Culling_Games)
+
+- Git instalado no computador usado para clonar o projeto
+
+Caso nao tenha os pré-requisitos listados, recomendo seguir [esse tutorial](https://rmnicola.github.io/m6-ec-encontros/E01/ros) para instalar o ROS2.
+
+## Instalação
+
+1. 
+
+```bash
+    git clone https://github.com/MarioVenturaMedeiros/Ponderadas_M6.git
+```
+
+2. No diretório do pacote do pygame
+
+```bash
+    colcon build
+    source install/local_setup.bash
+    ros2 run cg maze
+```
+
+3. Dentro do diretório do pacote do pygame, copie o local do setup.bash dentro da pasta install
+
+4. No diretório desse projeto
+
+```bash
+    source <local_do_setup.bash>
+```
+
+5. 
+
+```bash
+    colcon build --packages-select reactive_navigation
+    source install/local_setup.bash
+    ros2 run reactive_navigation reactive_navigation
+```
